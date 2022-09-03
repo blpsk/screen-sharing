@@ -1,6 +1,8 @@
 # Screen sharing
 Simple in-browser screen sharing application written in Vue using WebRTC.
 
+![Screenshot 2022-09-03 at 22 17 41](https://user-images.githubusercontent.com/50334482/188288210-af8dcd8b-8e0c-4cb7-a77e-00ee138bac65.png)
+
 # Installation
 Clone the repository and install dependencies using;
 ```shell
