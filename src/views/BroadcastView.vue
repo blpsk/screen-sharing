@@ -105,6 +105,7 @@ const sharingId = ref("");
 const streaming = ref(false);
 const errorMessage = ref("");
 
+// PeerJS types are not working
 const dataConnections: any[] = [];
 const mediaConnections: any[] = [];
 

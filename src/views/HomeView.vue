@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-3">
-    <form novalidate>
+    <form @submit.prevent="startViewing" novalidate>
       <div class="form-floating mb-3">
         <input v-model.trim="codeInput" type="text" class="form-control" id="codeInput" placeholder="Sharing code">
         <label for="floatingInput">Sharing code</label>
@@ -9,7 +9,7 @@
         {{ errorMessage }}
       </div>
       <div class="d-grid mb-3">
-        <button @click="startViewing" class="btn btn-primary" type="button">Watch</button>
+        <button class="btn btn-primary" type="submit">Watch</button>
       </div>
       <div class="mb-3 text-center">
         <RouterLink :to="{'name': 'broadcast'}">Create your own stream</RouterLink>
